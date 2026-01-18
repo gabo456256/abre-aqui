@@ -1,0 +1,10 @@
+<div id="inicio" onclick="this.style.opacity='0'; setTimeout(()=>this.style.display='none', 1000);" style="position:fixed; top:0; left:0; width:100%; height:100%; background:#000; display:flex; justify-content:center; align-items:center; z-index:9999; cursor:pointer; transition: opacity 1s;">
+    <h1 style="color:#00d4ff; font-family:sans-serif; letter-spacing:10px; text-shadow: 0 0 20px #00d4ff; animation: latido 2s infinite;">TOCA AQUÍ</h1>
+</div>
+
+<style>
+    @keyframes latido {
+        0%, 100% { transform: scale(1); opacity: 0.6; }
+        50% { transform: scale(1.1); opacity: 1; text-shadow: 0 0 40px #00d4ff; }
+    }
+</style>
